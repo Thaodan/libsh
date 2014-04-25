@@ -1,0 +1,3080 @@
+shpp  -DDMSG_wDETECT_GENERIC_XMESSAGE --debug -DLIBSH_VER=2.3 -DLIBSH_REV=2230  libsh.in.sh -o libsh
++ shift
++ '[' '!' 8 = 1 ']'
++ case $1 in
++ define LIBSH_VER=2.3
++ case $1 in
++ var defines/LIBSH_VER=2.3
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo defines/LIBSH_VER=2.3
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=defines/LIBSH_VER
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo defines/LIBSH_VER=2.3
+++ sed -e 's/.*.=//'
++ local __var_part2=2.3
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ case $1 in
++ printf -- 2.3
++ shift 2
++ '[' '!' 6 = 1 ']'
++ case $1 in
++ define LIBSH_REV=2230
++ case $1 in
++ var defines/LIBSH_REV=2230
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo defines/LIBSH_REV=2230
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=defines/LIBSH_REV
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo defines/LIBSH_REV=2230
+++ sed -e 's/.*.=//'
++ local __var_part2=2230
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ case $1 in
++ printf -- 2230
++ shift 2
++ '[' '!' 4 = 1 ']'
++ case $1 in
++ target_name=libsh
++ shift 2
++ '[' '!' 2 = 1 ']'
++ case $1 in
++ shift
++ break
++ '[' -t 1 ']'
++ '[' ']'
++ '[' -z libsh ']'
++ '[' '!' -e libsh.in.sh ']'
++ for signal in TERM HUP QUIT
++ trap 'IID=1 cleanup; exit 1' TERM
++ for signal in TERM HUP QUIT
++ trap 'IID=1 cleanup; exit 1' HUP
++ for signal in TERM HUP QUIT
++ trap 'IID=1 cleanup; exit 1' QUIT
++ unset signal
++ trap 'IID=1 cleanup; exit 130' INT
++ stub_main libsh.in.sh libsh
++ '[' '!' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self ']'
++ IID=1
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1
++ ln -s 1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ echo /tmp/tmp.8LLRrbxsgqshppXXXXXXXX
++ verbose 'Entering instance '\''1'\'''
++ '[' ']'
++ cp libsh.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ find_commands /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local _command command command_no command_raw IFS counter=0 arg_counter=0 arg_string __arg__ arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
++ erase_till_endif=false
++ endif_notfound=false
++ var self/command/removed_stack=0
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/removed_stack
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/.*.=//'
++ local __var_part2=0
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command
++ case $1 in
++ printf -- 0
++ local if_line
++ local old_ifs=
++ IFS='
+'
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' )
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' 
+++ grep -hn '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed 's|:.*||'
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=1
++ var self/command/lines/1=27
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/1=27
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/1
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/1=27
+++ sed -e 's/.*.=//'
++ local __var_part2=27
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 27
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=2
++ var self/command/lines/2=30
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/2=30
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/2
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/2=30
+++ sed -e 's/.*.=//'
++ local __var_part2=30
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 30
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=3
++ var self/command/lines/3=31
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/3=31
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/3
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/3=31
+++ sed -e 's/.*.=//'
++ local __var_part2=31
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 31
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=4
++ var self/command/lines/4=32
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/4=32
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/4
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/4=32
+++ sed -e 's/.*.=//'
++ local __var_part2=32
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 32
++ counter=0
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  )
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  
+++ grep '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed -e 's/#\\\\//'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=1
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/1
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ local line_ued=27
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=27
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'include shload.in.sh'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='include shload.in.sh'
++ '[' false = true ']'
++ verbose 'L27: Found '\''include shload.in.sh'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=include
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=shload.in.sh
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ include shload.in.sh
++ local __include_arg __parser __parser_args __cleaned_include __outputfile__cleaned_include __include_space current_include_no __not_found=false
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files
++ touch /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ '[' '!' 1 = 0 ']'
++ case $1 in
++ __cleaned_include=shload.in.sh
++ shift
++ '[' '!' 0 = 0 ']'
++ verbose 'L27: Opened '\''shload.in.sh'\'' to parse,call a new instance  to process file'
++ '[' ']'
++ case $__cleaned_include in
++ case $__cleaned_include in
++ local IFS=:
++ for __include_space in '$INCLUDE_SPACES'
++ IFS=
++ '[' -e /home/bidar/dev/libsh/src/shload.in.sh ']'
++ __cleaned_include=/home/bidar/dev/libsh/src/shload.in.sh
++ __not_found=false
++ break
++ '[' false = true ']'
++ count + 1 self/include/counter
++ COUNTER=self/include/counter
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ echo 1
+ var self/include/counter )
+ var self/include/counter 
+++ var self/include/counter
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ current_include_no=1
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo /home/bidar/dev/libsh/src/shload.in.sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ __outputfile__cleaned_include=_home_bidar_dev_libsh_src_shload_in_sh
++ case ${__parser:-SELF} in
++ stub_main /home/bidar/dev/libsh/src/shload.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/1_home_bidar_dev_libsh_src_shload_in_sh
++ '[' '!' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self ']'
+tr -dc 1-9 < /dev/urandom | head -c5)
+tr -dc 1-9 < /dev/urandom | head -c5
+++ tr -dc 1-9
+++ head -c5
++ IID=41286
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286
++ mv /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286/.lastself
++ ln -s 41286 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ verbose 'Entering instance '\''41286'\'''
++ '[' ']'
++ cp /home/bidar/dev/libsh/src/shload.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ find_commands /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local _command command command_no command_raw IFS counter=0 arg_counter=0 arg_string __arg__ arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
++ erase_till_endif=false
++ endif_notfound=false
++ var self/command/removed_stack=0
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/removed_stack
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/.*.=//'
++ local __var_part2=0
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command
++ case $1 in
++ printf -- 0
++ local if_line
++ local old_ifs=
++ IFS='
+'
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' )
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' 
+++ grep -hn '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed 's|:.*||'
++ counter=0
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  )
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  
+++ sed -e 's/#\\\\//'
++ IFS=
++ write_shortifdefs /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local 'IFS=
+'
+ var defines )
+ var defines 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_wDETECT_GENERIC_XMESSAGE//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_REV//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_VER//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ test -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ replace_vars defines /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ verbose replace_vars 'Opening '\''/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2'\'''
++ '[' ']'
++ local replace_var replace_var_content old_ifs IFS shifted_one
++ '[' '!' -z ']'
++ old_ifs=
++ IFS='
+'
+ var $1 )
+ var $1 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_wDETECT_GENERIC_XMESSAGE
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE
++ replace_var_content=
++ verbose 'replacing @DMSG_wDETECT_GENERIC_XMESSAGE@ with '
++ '[' ']'
++ sed -ie 's|@DMSG_wDETECT_GENERIC_XMESSAGE@||g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_REV
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ replace_var_content=2230
++ verbose 'replacing @LIBSH_REV@ with 2230'
++ '[' ']'
++ sed -ie 's|@LIBSH_REV@|2230|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_VER
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ replace_var_content=2.3
++ verbose 'replacing @LIBSH_VER@ with 2.3'
++ '[' ']'
++ sed -ie 's|@LIBSH_VER@|2.3|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ '[' 41286 = 1 ']'
++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files ']'
++ clear_flags /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed -ie '/^#\\\\*/d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/1_home_bidar_dev_libsh_src_shload_in_sh
++ '[' '!' 41286 = 1 ']'
++ echo /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286
++ rm /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ mv -f /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286/.lastself /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ cleanup
++ '[' '!' ']'
+ cat $tmp_dir/$IID/clean_files)
+ cat $tmp_dir/$IID/clean_files
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286/clean_files
++ rm -rf /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/41286
+readlink $tmp_dir/self)
+readlink $tmp_dir/self
+++ readlink /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ IID=1
++ var self/include/lines/1=27
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/include/lines/1=27
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/include/lines/1
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/include/lines/1=27
+++ sed -e 's/.*.=//'
++ local __var_part2=27
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/1
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines
++ case $1 in
++ printf -- 27
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=2
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/2
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ local line_ued=30
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=30
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'include d_msg.in.sh'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='include d_msg.in.sh'
++ '[' false = true ']'
++ verbose 'L30: Found '\''include d_msg.in.sh'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=include
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=d_msg.in.sh
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ include d_msg.in.sh
++ local __include_arg __parser __parser_args __cleaned_include __outputfile__cleaned_include __include_space current_include_no __not_found=false
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files
++ touch /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ '[' '!' 1 = 0 ']'
++ case $1 in
++ __cleaned_include=d_msg.in.sh
++ shift
++ '[' '!' 0 = 0 ']'
++ verbose 'L30: Opened '\''d_msg.in.sh'\'' to parse,call a new instance  to process file'
++ '[' ']'
++ case $__cleaned_include in
++ case $__cleaned_include in
++ local IFS=:
++ for __include_space in '$INCLUDE_SPACES'
++ IFS=
++ '[' -e /home/bidar/dev/libsh/src/d_msg.in.sh ']'
++ __cleaned_include=/home/bidar/dev/libsh/src/d_msg.in.sh
++ __not_found=false
++ break
++ '[' false = true ']'
++ count + 1 self/include/counter
++ COUNTER=self/include/counter
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ echo 2
+ var self/include/counter )
+ var self/include/counter 
+++ var self/include/counter
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ current_include_no=2
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo /home/bidar/dev/libsh/src/d_msg.in.sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ __outputfile__cleaned_include=_home_bidar_dev_libsh_src_d_msg_in_sh
++ case ${__parser:-SELF} in
++ stub_main /home/bidar/dev/libsh/src/d_msg.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/2_home_bidar_dev_libsh_src_d_msg_in_sh
++ '[' '!' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self ']'
+tr -dc 1-9 < /dev/urandom | head -c5)
+tr -dc 1-9 < /dev/urandom | head -c5
+++ tr -dc 1-9
+++ head -c5
++ IID=53713
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713
++ mv /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713/.lastself
++ ln -s 53713 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ verbose 'Entering instance '\''53713'\'''
++ '[' ']'
++ cp /home/bidar/dev/libsh/src/d_msg.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ find_commands /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local _command command command_no command_raw IFS counter=0 arg_counter=0 arg_string __arg__ arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
++ erase_till_endif=false
++ endif_notfound=false
++ var self/command/removed_stack=0
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/removed_stack
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/.*.=//'
++ local __var_part2=0
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command
++ case $1 in
++ printf -- 0
++ local if_line
++ local old_ifs=
++ IFS='
+'
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' )
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' 
+++ grep -hn '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed 's|:.*||'
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=1
++ var self/command/lines/1=1
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/1=1
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/1
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/1=1
+++ sed -e 's/.*.=//'
++ local __var_part2=1
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 1
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=2
++ var self/command/lines/2=2
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/2=2
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/2
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/2=2
+++ sed -e 's/.*.=//'
++ local __var_part2=2
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 2
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=3
++ var self/command/lines/3=3
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/3=3
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/3
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/3=3
+++ sed -e 's/.*.=//'
++ local __var_part2=3
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 3
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=4
++ var self/command/lines/4=4
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/4=4
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/4
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ sed -e 's/.*.=//'
+++ echo self/command/lines/4=4
++ local __var_part2=4
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 4
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=5
++ var self/command/lines/5=63
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/5=63
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/5
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/5=63
+++ sed -e 's/.*.=//'
++ local __var_part2=63
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 63
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=6
++ var self/command/lines/6=64
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/6=64
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/6
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/6=64
+++ sed -e 's/.*.=//'
++ local __var_part2=64
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 64
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=7
++ var self/command/lines/7=65
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/7=65
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/7
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/7=65
+++ sed -e 's/.*.=//'
++ local __var_part2=65
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 65
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=8
++ var self/command/lines/8=66
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/8=66
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/8
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/8=66
+++ sed -e 's/.*.=//'
++ local __var_part2=66
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 66
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=9
++ var self/command/lines/9=67
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/9=67
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/9
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/9=67
+++ sed -e 's/.*.=//'
++ local __var_part2=67
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 67
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=10
++ var self/command/lines/10=69
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/10=69
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/10
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/10=69
+++ sed -e 's/.*.=//'
++ local __var_part2=69
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 69
++ counter=0
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  )
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  
+++ grep '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed -e 's/#\\\\//'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=1
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/1
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ local line_ued=1
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=1
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'rem we use kdialog as default if DE is generic unless DMSG_wDETECT_GENERIC_XMESSAGE'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='rem we use kdialog as default if DE is generic unless DMSG_wDETECT_GENERIC_XMESSAGE'
++ '[' false = true ']'
++ verbose 'L1: Found '\''rem we use kdialog as default if DE is generic unless DMSG_wDETECT_GENERIC_XMESSAGE'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=rem
++ case "$command" in
++ break
++ IFS=
++ arg_counter=0
++ case "$command" in
++ :
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=2
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/2
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ local line_ued=2
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=2
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'if ! defined DMSG_WDETECT_GENERIC_ZENITY'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='if ! defined DMSG_WDETECT_GENERIC_ZENITY'
++ '[' false = true ']'
++ verbose 'L2: Found '\''if ! defined DMSG_WDETECT_GENERIC_ZENITY'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=if
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1='!'
++ arg_counter=2
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg2=defined
++ arg_counter=3
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg3=DMSG_WDETECT_GENERIC_ZENITY
++ arg_counter=4
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If '!' defined DMSG_WDETECT_GENERIC_ZENITY
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 3 = 0 ']'
++ case $1 in
++ __logic_number=0
++ shift
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DMSG_WDETECT_GENERIC_ZENITY
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_ZENITY ']'
+++ verbose 'L2: DMSG_WDETECT_GENERIC_ZENITY was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 0 ']'
++ '[' ']'
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' false = true ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=3
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/3
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ local line_ued=3
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=3
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'define DMSG_WDETECT_GENERIC_KDIALOG'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='define DMSG_WDETECT_GENERIC_KDIALOG'
++ '[' false = true ']'
++ verbose 'L3: Found '\''define DMSG_WDETECT_GENERIC_KDIALOG'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=define
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DMSG_WDETECT_GENERIC_KDIALOG
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ define DMSG_WDETECT_GENERIC_KDIALOG defined
++ case $1 in
++ var defines/DMSG_WDETECT_GENERIC_KDIALOG=defined
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo defines/DMSG_WDETECT_GENERIC_KDIALOG=defined
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=defines/DMSG_WDETECT_GENERIC_KDIALOG
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo defines/DMSG_WDETECT_GENERIC_KDIALOG=defined
+++ sed -e 's/.*.=//'
++ local __var_part2=defined
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ case $1 in
++ printf -- defined
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=4
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/4
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ local line_ued=4
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=4
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo endif
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' false = true ']'
++ verbose 'L4: Found '\''endif'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ command=endif
++ case "$command" in
++ endif
++ '[' '!' true ']'
++ unset found_if_or_else
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=5
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/5
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5
++ local line_ued=63
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=63
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'ifndef DMSG_wDETECT_GENERIC_XMESSAGE'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifndef DMSG_wDETECT_GENERIC_XMESSAGE'
++ '[' false = true ']'
++ verbose 'L63: Found '\''ifndef DMSG_wDETECT_GENERIC_XMESSAGE'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifndef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DMSG_wDETECT_GENERIC_XMESSAGE
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If '!' defined DMSG_wDETECT_GENERIC_XMESSAGE
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 3 = 0 ']'
++ case $1 in
++ __logic_number=0
++ shift
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DMSG_wDETECT_GENERIC_XMESSAGE
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ echo 1
++ __condition='1 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '1 '
+++ bc
++ '[' 1 = 0 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L63: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=63
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=6
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/6
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6
++ local line_ued=64
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=64
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '!DMSG_WDETECT_GENERIC_KDIALOG generic) DMSG_GUI_APP=kdialog ;;'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='!DMSG_WDETECT_GENERIC_KDIALOG generic) DMSG_GUI_APP=kdialog ;;'
++ '[' true = true ']'
++ '[' '!DMSG_WDETECT_GENERIC_KDIALOG generic) DMSG_GUI_APP=kdialog ;;' = endif ']'
++ '[' '!DMSG_WDETECT_GENERIC_KDIALOG generic) DMSG_GUI_APP=kdialog ;;' = else ']'
++ '[' '!' false = false ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=7
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/7
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7
++ local line_ued=65
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=65
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '!DMSG_WDETECT_GENERIC_ZENITY generic) DMSG_GUI_APP=zenity ;;'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='!DMSG_WDETECT_GENERIC_ZENITY generic) DMSG_GUI_APP=zenity ;;'
++ '[' true = true ']'
++ '[' '!DMSG_WDETECT_GENERIC_ZENITY generic) DMSG_GUI_APP=zenity ;;' = endif ']'
++ '[' '!DMSG_WDETECT_GENERIC_ZENITY generic) DMSG_GUI_APP=zenity ;;' = else ']'
++ '[' '!' false = false ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=8
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/8
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8
++ local line_ued=66
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=66
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo else
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=else
++ '[' true = true ']'
++ '[' else = endif ']'
++ '[' else = else ']'
++ sed -ie '63,66 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 4 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 4
++ '[' else = else ']'
++ found_if_or_else=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=9
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/9
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9
++ local line_ued=67
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=63
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'warning  "xmesssage functionality is too limeted"	   '
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='warning  "xmesssage functionality is too limeted"'
++ '[' false = true ']'
++ verbose 'L67: Found '\''warning  "xmesssage functionality is too limeted"'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=warning
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ true
++ arg_string='"xmesssage'
++ '[' '!' '"xmesssage' ']'
++ for __arg__ in '$_command'
++ '[' '!' '"xmesssage' ']'
++ '[' '"xmesssage' ']'
++ case $__arg__ in
++ arg_string='"xmesssage functionality'
++ '[' '!' '"xmesssage functionality' ']'
++ for __arg__ in '$_command'
++ '[' '!' '"xmesssage functionality' ']'
++ '[' '"xmesssage' functionality ']'
+/usr/bin/shpp: Zeile 209: [: "xmesssage: Einstelliger (unärer) Operator erwartet.
++ '[' '!' '"xmesssage functionality' ']'
++ for __arg__ in '$_command'
++ '[' '!' '"xmesssage functionality' ']'
++ '[' '"xmesssage' functionality ']'
+/usr/bin/shpp: Zeile 209: [: "xmesssage: Einstelliger (unärer) Operator erwartet.
++ '[' '!' '"xmesssage functionality' ']'
++ for __arg__ in '$_command'
++ '[' '!' '"xmesssage functionality' ']'
++ '[' '"xmesssage' functionality ']'
+/usr/bin/shpp: Zeile 209: [: "xmesssage: Einstelliger (unärer) Operator erwartet.
++ '[' '!' '"xmesssage functionality' ']'
++ IFS=
++ arg_counter=0
++ case "$command" in
++ warning DMSG_wDETECT_GENERIC_XMESSAGE
++ __warning L67:warning:warning DMSG_wDETECT_GENERIC_XMESSAGE
++ local first=L67:warning:warning
++ shift
++ echo '==> L67:warning:warning: DMSG_wDETECT_GENERIC_XMESSAGE'
+==> L67:warning:warning: DMSG_wDETECT_GENERIC_XMESSAGE
++ '[' ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=10
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/10
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10
++ local line_ued=69
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=65
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo endif
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' false = true ']'
++ verbose 'L69: Found '\''endif'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ command=endif
++ case "$command" in
++ endif
++ '[' '!' true ']'
++ unset found_if_or_else
++ IFS='
+	'
++ IFS=
++ write_shortifdefs /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local 'IFS=
+'
+ var defines )
+ var defines 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_WDETECT_GENERIC_KDIALOG//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_wDETECT_GENERIC_XMESSAGE//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_REV//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_VER//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ test -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ replace_vars defines /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ verbose replace_vars 'Opening '\''/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2'\'''
++ '[' ']'
++ local replace_var replace_var_content old_ifs IFS shifted_one
++ '[' '!' -z ']'
++ old_ifs=
++ IFS='
+'
+ var $1 )
+ var $1 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_WDETECT_GENERIC_KDIALOG
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG
++ replace_var_content=defined
++ verbose 'replacing @DMSG_WDETECT_GENERIC_KDIALOG@ with defined'
++ '[' ']'
++ sed -ie 's|@DMSG_WDETECT_GENERIC_KDIALOG@|defined|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_wDETECT_GENERIC_XMESSAGE
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE
++ replace_var_content=
++ verbose 'replacing @DMSG_wDETECT_GENERIC_XMESSAGE@ with '
++ '[' ']'
++ sed -ie 's|@DMSG_wDETECT_GENERIC_XMESSAGE@||g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_REV
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ replace_var_content=2230
++ verbose 'replacing @LIBSH_REV@ with 2230'
++ '[' ']'
++ sed -ie 's|@LIBSH_REV@|2230|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_VER
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ replace_var_content=2.3
++ verbose 'replacing @LIBSH_VER@ with 2.3'
++ '[' ']'
++ sed -ie 's|@LIBSH_VER@|2.3|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ '[' 53713 = 1 ']'
++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files ']'
++ clear_flags /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed -ie '/^#\\\\*/d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/2_home_bidar_dev_libsh_src_d_msg_in_sh
++ '[' '!' 53713 = 1 ']'
++ echo /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713
++ rm /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ mv -f /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713/.lastself /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ cleanup
++ '[' '!' ']'
+ cat $tmp_dir/$IID/clean_files)
+ cat $tmp_dir/$IID/clean_files
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713/clean_files
++ rm -rf /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/53713
+readlink $tmp_dir/self)
+readlink $tmp_dir/self
+++ readlink /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ IID=1
++ var self/include/lines/2=30
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/include/lines/2=30
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/include/lines/2
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/include/lines/2=30
+++ sed -e 's/.*.=//'
++ local __var_part2=30
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/2
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines
++ case $1 in
++ printf -- 30
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=3
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/3
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ local line_ued=31
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=31
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'include farray.in.sh '
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='include farray.in.sh'
++ '[' false = true ']'
++ verbose 'L31: Found '\''include farray.in.sh'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=include
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=farray.in.sh
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ include farray.in.sh
++ local __include_arg __parser __parser_args __cleaned_include __outputfile__cleaned_include __include_space current_include_no __not_found=false
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files
++ touch /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ '[' '!' 1 = 0 ']'
++ case $1 in
++ __cleaned_include=farray.in.sh
++ shift
++ '[' '!' 0 = 0 ']'
++ verbose 'L31: Opened '\''farray.in.sh'\'' to parse,call a new instance  to process file'
++ '[' ']'
++ case $__cleaned_include in
++ case $__cleaned_include in
++ local IFS=:
++ for __include_space in '$INCLUDE_SPACES'
++ IFS=
++ '[' -e /home/bidar/dev/libsh/src/farray.in.sh ']'
++ __cleaned_include=/home/bidar/dev/libsh/src/farray.in.sh
++ __not_found=false
++ break
++ '[' false = true ']'
++ count + 1 self/include/counter
++ COUNTER=self/include/counter
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ echo 3
+ var self/include/counter )
+ var self/include/counter 
+++ var self/include/counter
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ current_include_no=3
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo /home/bidar/dev/libsh/src/farray.in.sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ __outputfile__cleaned_include=_home_bidar_dev_libsh_src_farray_in_sh
++ case ${__parser:-SELF} in
++ stub_main /home/bidar/dev/libsh/src/farray.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/3_home_bidar_dev_libsh_src_farray_in_sh
++ '[' '!' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self ']'
+tr -dc 1-9 < /dev/urandom | head -c5)
+tr -dc 1-9 < /dev/urandom | head -c5
+++ tr -dc 1-9
+++ head -c5
++ IID=54399
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399
++ mv /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399/.lastself
++ ln -s 54399 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ verbose 'Entering instance '\''54399'\'''
++ '[' ']'
++ cp /home/bidar/dev/libsh/src/farray.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ find_commands /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local _command command command_no command_raw IFS counter=0 arg_counter=0 arg_string __arg__ arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
++ erase_till_endif=false
++ endif_notfound=false
++ var self/command/removed_stack=0
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/removed_stack
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/.*.=//'
++ local __var_part2=0
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command
++ case $1 in
++ printf -- 0
++ local if_line
++ local old_ifs=
++ IFS='
+'
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' )
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' 
+++ grep -hn '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed 's|:.*||'
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=1
++ var self/command/lines/1=16
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/1=16
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/1
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/1=16
+++ sed -e 's/.*.=//'
++ local __var_part2=16
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 16
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=2
++ var self/command/lines/2=31
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/2=31
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/2
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/2=31
+++ sed -e 's/.*.=//'
++ local __var_part2=31
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 31
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=3
++ var self/command/lines/3=49
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/3=49
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/3
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/3=49
+++ sed -e 's/.*.=//'
++ local __var_part2=49
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 49
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=4
++ var self/command/lines/4=52
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/4=52
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/4
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/4=52
+++ sed -e 's/.*.=//'
++ local __var_part2=52
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 52
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=5
++ var self/command/lines/5=64
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/5=64
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/5
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/5=64
+++ sed -e 's/.*.=//'
++ local __var_part2=64
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 64
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=6
++ var self/command/lines/6=67
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/6=67
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/6
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/6=67
+++ sed -e 's/.*.=//'
++ local __var_part2=67
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 67
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=7
++ var self/command/lines/7=74
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/7=74
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/7
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/7=74
+++ sed -e 's/.*.=//'
++ local __var_part2=74
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 74
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=8
++ var self/command/lines/8=77
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/8=77
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/8
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/8=77
+++ sed -e 's/.*.=//'
++ local __var_part2=77
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 77
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=9
++ var self/command/lines/9=90
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/9=90
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/9
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/9=90
+++ sed -e 's/.*.=//'
++ local __var_part2=90
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 90
++ for find_commands_line in '$( grep -hn \#\\\\\\\\$2 "$1"  | sed '\''s|:.*||'\'' )'
++ counter=10
++ var self/command/lines/10=93
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/lines/10=93
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/lines/10
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/lines/10=93
+++ sed -e 's/.*.=//'
++ local __var_part2=93
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines
++ case $1 in
++ printf -- 93
++ counter=0
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  )
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  
+++ grep '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed -e 's/#\\\\//'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=1
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/1
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/1
++ local line_ued=16
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=16
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'ifdef DEBUG_FARRAY_LESS_OUTPUT '
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifdef DEBUG_FARRAY_LESS_OUTPUT'
++ '[' false = true ']'
++ verbose 'L16: Found '\''ifdef DEBUG_FARRAY_LESS_OUTPUT'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifdef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DEBUG_FARRAY_LESS_OUTPUT
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If defined DEBUG_FARRAY_LESS_OUTPUT
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DEBUG_FARRAY_LESS_OUTPUT
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DEBUG_FARRAY_LESS_OUTPUT ']'
+++ verbose 'L16: DEBUG_FARRAY_LESS_OUTPUT was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 1 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L16: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=16
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=2
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/2
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/2
++ local line_ued=31
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=31
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo endif
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' true = true ']'
++ '[' endif = endif ']'
++ sed -ie '16,31 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 16 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 16
++ '[' endif = else ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=3
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/3
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/3
++ local line_ued=49
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=33
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	ifdef DEBUG_FARRAY_LESS_OUTPUT'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifdef DEBUG_FARRAY_LESS_OUTPUT'
++ '[' false = true ']'
++ verbose 'L49: Found '\''ifdef DEBUG_FARRAY_LESS_OUTPUT'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifdef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DEBUG_FARRAY_LESS_OUTPUT
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If defined DEBUG_FARRAY_LESS_OUTPUT
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DEBUG_FARRAY_LESS_OUTPUT
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DEBUG_FARRAY_LESS_OUTPUT ']'
+++ verbose 'L49: DEBUG_FARRAY_LESS_OUTPUT was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 1 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L49: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=33
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=4
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/4
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ local line_ued=52
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=36
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	endif'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' true = true ']'
++ '[' endif = endif ']'
++ sed -ie '33,36 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 4 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 20
++ '[' endif = else ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=5
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/5
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/5
++ local line_ued=64
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=44
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	ifdef DEBUG_FARRAY_LESS_OUTPUT'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifdef DEBUG_FARRAY_LESS_OUTPUT'
++ '[' false = true ']'
++ verbose 'L64: Found '\''ifdef DEBUG_FARRAY_LESS_OUTPUT'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifdef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DEBUG_FARRAY_LESS_OUTPUT
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If defined DEBUG_FARRAY_LESS_OUTPUT
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DEBUG_FARRAY_LESS_OUTPUT
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DEBUG_FARRAY_LESS_OUTPUT ']'
+++ verbose 'L64: DEBUG_FARRAY_LESS_OUTPUT was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 1 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L64: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=44
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=6
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/6
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/6
++ local line_ued=67
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=47
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	endif'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' true = true ']'
++ '[' endif = endif ']'
++ sed -ie '44,47 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 4 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 24
++ '[' endif = else ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=7
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/7
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/7
++ local line_ued=74
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=50
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	ifdef DEBUG_FARRAY_LESS_OUTPUT'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifdef DEBUG_FARRAY_LESS_OUTPUT'
++ '[' false = true ']'
++ verbose 'L74: Found '\''ifdef DEBUG_FARRAY_LESS_OUTPUT'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifdef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DEBUG_FARRAY_LESS_OUTPUT
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If defined DEBUG_FARRAY_LESS_OUTPUT
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DEBUG_FARRAY_LESS_OUTPUT
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DEBUG_FARRAY_LESS_OUTPUT ']'
+++ verbose 'L74: DEBUG_FARRAY_LESS_OUTPUT was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 1 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L74: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=50
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=8
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/8
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/8
++ local line_ued=77
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=53
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	endif'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' true = true ']'
++ '[' endif = endif ']'
++ sed -ie '50,53 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 4 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 28
++ '[' endif = else ']'
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=9
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/9
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/9
++ local line_ued=90
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=62
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	ifdef DEBUG_FARRAY_LESS_OUTPUT'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='ifdef DEBUG_FARRAY_LESS_OUTPUT'
++ '[' false = true ']'
++ verbose 'L90: Found '\''ifdef DEBUG_FARRAY_LESS_OUTPUT'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=ifdef
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=DEBUG_FARRAY_LESS_OUTPUT
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ If defined DEBUG_FARRAY_LESS_OUTPUT
++ local __logic_number=1 __condition_done=false __condition
++ unsuccesfull=false
++ old_ifs=
++ IFS=' '
++ '[' '!' false = true ']'
++ '[' '!' 2 = 0 ']'
++ case $1 in
++ IFS=
+defined $2) $__condition"
+defined $2) $__condition
+defined $2
+++ defined DEBUG_FARRAY_LESS_OUTPUT
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DEBUG_FARRAY_LESS_OUTPUT ']'
+++ verbose 'L90: DEBUG_FARRAY_LESS_OUTPUT was not defined'
+++ '[' ']'
+++ echo 0
++ __condition='0 '
++ IFS=' '
++ shift 2
++ '[' '!' 0 = 0 ']'
+ echo "$__condition" | bc )
+ echo "$__condition" | bc 
+++ echo '0 '
+++ bc
++ '[' 0 = 1 ']'
++ '[' ']'
++ unsuccesfull=true
++ __condition_done=true
++ found_if_or_else=true
++ '[' '!' true = true ']'
++ '[' true = true ']'
++ verbose 'L90: Condition was not true, remove content till next endif/else, erase_till_endif ist set to true'
++ '[' ']'
++ if_line=62
++ erase_till_endif=true
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=10
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/10
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/10
++ local line_ued=93
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=65
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo '	endif'
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command=endif
++ '[' true = true ']'
++ '[' endif = endif ']'
++ sed -ie '62,65 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ erase_till_endif=false
++ count + 4 self/command/removed_stack
++ COUNTER=self/command/removed_stack
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ echo 32
++ '[' endif = else ']'
++ IFS='
+	'
++ IFS=
++ write_shortifdefs /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local 'IFS=
+'
+ var defines )
+ var defines 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_WDETECT_GENERIC_KDIALOG//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_wDETECT_GENERIC_XMESSAGE//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_REV//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_VER//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ test -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ replace_vars defines /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ verbose replace_vars 'Opening '\''/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2'\'''
++ '[' ']'
++ local replace_var replace_var_content old_ifs IFS shifted_one
++ '[' '!' -z ']'
++ old_ifs=
++ IFS='
+'
+ var $1 )
+ var $1 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_WDETECT_GENERIC_KDIALOG
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG
++ replace_var_content=defined
++ verbose 'replacing @DMSG_WDETECT_GENERIC_KDIALOG@ with defined'
++ '[' ']'
++ sed -ie 's|@DMSG_WDETECT_GENERIC_KDIALOG@|defined|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_wDETECT_GENERIC_XMESSAGE
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE
++ replace_var_content=
++ verbose 'replacing @DMSG_wDETECT_GENERIC_XMESSAGE@ with '
++ '[' ']'
++ sed -ie 's|@DMSG_wDETECT_GENERIC_XMESSAGE@||g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_REV
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ replace_var_content=2230
++ verbose 'replacing @LIBSH_REV@ with 2230'
++ '[' ']'
++ sed -ie 's|@LIBSH_REV@|2230|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_VER
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ replace_var_content=2.3
++ verbose 'replacing @LIBSH_VER@ with 2.3'
++ '[' ']'
++ sed -ie 's|@LIBSH_VER@|2.3|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ '[' 54399 = 1 ']'
++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files ']'
++ clear_flags /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed -ie '/^#\\\\*/d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/3_home_bidar_dev_libsh_src_farray_in_sh
++ '[' '!' 54399 = 1 ']'
++ echo /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399
++ rm /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ mv -f /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399/.lastself /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ cleanup
++ '[' '!' ']'
+ cat $tmp_dir/$IID/clean_files)
+ cat $tmp_dir/$IID/clean_files
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399/clean_files
++ rm -rf /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/54399
+readlink $tmp_dir/self)
+readlink $tmp_dir/self
+++ readlink /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ IID=1
++ var self/include/lines/3=31
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/include/lines/3=31
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/include/lines/3
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/include/lines/3=31
+++ sed -e 's/.*.=//'
++ local __var_part2=31
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/3
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines
++ case $1 in
++ printf -- 31
++ IFS='
+	'
++ for _command in '$( grep  \#\\\\\\\\$2 "$1" | sed -e '\''s/#\\\\//'\''  )'
++ IFS=
++ counter=4
+ var self/command/lines/$counter )
+ var self/command/lines/$counter 
+++ var self/command/lines/4
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/lines/4
++ local line_ued=32
+ var self/command/removed_stack)))
+ var self/command/removed_stack)
+ var self/command/removed_stack
+++ var self/command/removed_stack
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ local line=32
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||')
+ echo "$_command" | sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e  "s|^\ ||" -e 's|\ $||'
+++ echo 'include test_input.in.sh '
+++ sed -e 's/[ \t]*$//' -e 's/^[ \t]*//' -e 's|^\ ||' -e 's|\ $||'
++ _command='include test_input.in.sh'
++ '[' false = true ']'
++ verbose 'L32: Found '\''include test_input.in.sh'\'' calling corresponding command'
++ '[' ']'
++ case $_command in
++ IFS=' '
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ command=include
++ case "$command" in
++ arg_counter=1
++ for __arg__ in '$_command'
++ '[' '!' '' ']'
++ case $__arg__ in
++ false
++ '[' ']'
++ '[' '!' '' ']'
++ case $arg_counter in
++ arg1=test_input.in.sh
++ arg_counter=2
++ IFS=
++ arg_counter=0
++ case "$command" in
++ include test_input.in.sh
++ local __include_arg __parser __parser_args __cleaned_include __outputfile__cleaned_include __include_space current_include_no __not_found=false
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files
++ touch /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ '[' '!' 1 = 0 ']'
++ case $1 in
++ __cleaned_include=test_input.in.sh
++ shift
++ '[' '!' 0 = 0 ']'
++ verbose 'L32: Opened '\''test_input.in.sh'\'' to parse,call a new instance  to process file'
++ '[' ']'
++ case $__cleaned_include in
++ case $__cleaned_include in
++ local IFS=:
++ for __include_space in '$INCLUDE_SPACES'
++ IFS=
++ '[' -e /home/bidar/dev/libsh/src/test_input.in.sh ']'
++ __cleaned_include=/home/bidar/dev/libsh/src/test_input.in.sh
++ __not_found=false
++ break
++ '[' false = true ']'
++ count + 1 self/include/counter
++ COUNTER=self/include/counter
++ case $1 in
+ cat $tmp_dir/$COUNTER ) + $2 ))
+ cat $tmp_dir/$COUNTER ) + $2 
+ cat $tmp_dir/$COUNTER 
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ echo 4
+ var self/include/counter )
+ var self/include/counter 
+++ var self/include/counter
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/counter
++ current_include_no=4
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo $__cleaned_include | 	sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo /home/bidar/dev/libsh/src/test_input.in.sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ __outputfile__cleaned_include=_home_bidar_dev_libsh_src_test_input_in_sh
++ case ${__parser:-SELF} in
++ stub_main /home/bidar/dev/libsh/src/test_input.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/4_home_bidar_dev_libsh_src_test_input_in_sh
++ '[' '!' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self ']'
+tr -dc 1-9 < /dev/urandom | head -c5)
+tr -dc 1-9 < /dev/urandom | head -c5
+++ tr -dc 1-9
+++ head -c5
++ IID=94296
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296
++ mv /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296/.lastself
++ ln -s 94296 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ verbose 'Entering instance '\''94296'\'''
++ '[' ']'
++ cp /home/bidar/dev/libsh/src/test_input.in.sh /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ find_commands /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local _command command command_no command_raw IFS counter=0 arg_counter=0 arg_string __arg__ arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
++ erase_till_endif=false
++ endif_notfound=false
++ var self/command/removed_stack=0
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/command/removed_stack
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/command/removed_stack=0
+++ sed -e 's/.*.=//'
++ local __var_part2=0
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command/removed_stack
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/command
++ case $1 in
++ printf -- 0
++ local if_line
++ local old_ifs=
++ IFS='
+'
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' )
+ grep -hn \#\\\\\\\\$2 "$1"  | sed 's|:.*||' 
+++ grep -hn '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed 's|:.*||'
++ counter=0
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  )
+ grep  \#\\\\\\\\$2 "$1" | sed -e 's/#\\\\//'  
+++ grep '#\\\\' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
+++ sed -e 's/#\\\\//'
++ IFS=
++ write_shortifdefs /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local 'IFS=
+'
+ var defines )
+ var defines 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_WDETECT_GENERIC_KDIALOG//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_wDETECT_GENERIC_XMESSAGE//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_REV//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_VER//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ test -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ replace_vars defines /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ verbose replace_vars 'Opening '\''/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2'\'''
++ '[' ']'
++ local replace_var replace_var_content old_ifs IFS shifted_one
++ '[' '!' -z ']'
++ old_ifs=
++ IFS='
+'
+ var $1 )
+ var $1 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_WDETECT_GENERIC_KDIALOG
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG
++ replace_var_content=defined
++ verbose 'replacing @DMSG_WDETECT_GENERIC_KDIALOG@ with defined'
++ '[' ']'
++ sed -ie 's|@DMSG_WDETECT_GENERIC_KDIALOG@|defined|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_wDETECT_GENERIC_XMESSAGE
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE
++ replace_var_content=
++ verbose 'replacing @DMSG_wDETECT_GENERIC_XMESSAGE@ with '
++ '[' ']'
++ sed -ie 's|@DMSG_wDETECT_GENERIC_XMESSAGE@||g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_REV
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ replace_var_content=2230
++ verbose 'replacing @LIBSH_REV@ with 2230'
++ '[' ']'
++ sed -ie 's|@LIBSH_REV@|2230|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_VER
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ replace_var_content=2.3
++ verbose 'replacing @LIBSH_VER@ with 2.3'
++ '[' ']'
++ sed -ie 's|@LIBSH_VER@|2.3|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ '[' 94296 = 1 ']'
++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files ']'
++ clear_flags /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed -ie '/^#\\\\*/d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/include/files/4_home_bidar_dev_libsh_src_test_input_in_sh
++ '[' '!' 94296 = 1 ']'
++ echo /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296
++ rm /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ mv -f /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296/.lastself /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ cleanup
++ '[' '!' ']'
+ cat $tmp_dir/$IID/clean_files)
+ cat $tmp_dir/$IID/clean_files
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296/clean_files
++ rm -rf /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/94296
+readlink $tmp_dir/self)
+readlink $tmp_dir/self
+++ readlink /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self
++ IID=1
++ var self/include/lines/4=32
++ case $1 in
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' )
+ echo "$1" | sed -e 's/=.*//' -e 's/[+,-]//' 
+++ echo self/include/lines/4=32
+++ sed -e 's/=.*//' -e 's/[+,-]//'
++ local __var_part1=self/include/lines/4
+ echo "$1" | sed -e 's/.*.=//' )
+ echo "$1" | sed -e 's/.*.=//' 
+++ echo self/include/lines/4=32
+++ sed -e 's/.*.=//'
++ local __var_part2=32
++ local __var12=/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/4
++ mkdir -p /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines
++ case $1 in
++ printf -- 32
++ IFS='
+	'
++ IFS=
++ write_shortifdefs /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ local 'IFS=
+'
+ var defines )
+ var defines 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_WDETECT_GENERIC_KDIALOG//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!DMSG_wDETECT_GENERIC_XMESSAGE//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_REV//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ for var1 in '$( var defines )'
++ sed -i 's/^#\\\\!LIBSH_VER//' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage1 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ test -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ replace_vars defines /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ verbose replace_vars 'Opening '\''/tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2'\'''
++ '[' ']'
++ local replace_var replace_var_content old_ifs IFS shifted_one
++ '[' '!' -z ']'
++ old_ifs=
++ IFS='
+'
+ var $1 )
+ var $1 
+++ var defines
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines ']'
+++ ls /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_WDETECT_GENERIC_KDIALOG
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_WDETECT_GENERIC_KDIALOG
++ replace_var_content=defined
++ verbose 'replacing @DMSG_WDETECT_GENERIC_KDIALOG@ with defined'
++ '[' ']'
++ sed -ie 's|@DMSG_WDETECT_GENERIC_KDIALOG@|defined|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/DMSG_wDETECT_GENERIC_XMESSAGE
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/DMSG_wDETECT_GENERIC_XMESSAGE
++ replace_var_content=
++ verbose 'replacing @DMSG_wDETECT_GENERIC_XMESSAGE@ with '
++ '[' ']'
++ sed -ie 's|@DMSG_wDETECT_GENERIC_XMESSAGE@||g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_REV
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_REV
++ replace_var_content=2230
++ verbose 'replacing @LIBSH_REV@ with 2230'
++ '[' ']'
++ sed -ie 's|@LIBSH_REV@|2230|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ for replace_var in '$( var $1 )'
++ IFS=
++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+var $1/$replace_var)
+var $1/$replace_var
+++ var defines/LIBSH_VER
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/defines/LIBSH_VER
++ replace_var_content=2.3
++ verbose 'replacing @LIBSH_VER@ with 2.3'
++ '[' ']'
++ sed -ie 's|@LIBSH_VER@|2.3|g' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ IFS='
+'
++ '[' 1 = 1 ']'
++ IFS=' '
++ unset IFS
++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files ']'
++ include_includes /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ local include_lines __include include_argument include_line __tmp_include __realy_cleaned_include __include_space include_no=0 include_stack=0
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pre_include
++ for include in '$tmp_dir/self/include/files/*'
++ include_no=1
+ var self/include/lines/$include_no )))
+ var self/include/lines/$include_no )
+ var self/include/lines/$include_no 
+++ var self/include/lines/1
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/1 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/1 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/1
++ include_line=27
++ case $include in
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo 1_home_bidar_dev_libsh_src_shload_in_sh
++ include=1_home_bidar_dev_libsh_src_shload_in_sh
++ sed '27,$ d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed '1,27 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files/1_home_bidar_dev_libsh_src_shload_in_sh
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source_end
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
+ wc -l < $tmp_dir/self/include/files/$include )))
+ wc -l < $tmp_dir/self/include/files/$include )
+ wc -l < $tmp_dir/self/include/files/$include 
+++ wc -l
++ include_stack=65
++ IFS='
+	'
++ for include in '$tmp_dir/self/include/files/*'
++ include_no=2
+ var self/include/lines/$include_no )))
+ var self/include/lines/$include_no )
+ var self/include/lines/$include_no 
+++ var self/include/lines/2
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/2 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/2 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/2
++ include_line=95
++ case $include in
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo 2_home_bidar_dev_libsh_src_d_msg_in_sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ include=2_home_bidar_dev_libsh_src_d_msg_in_sh
++ sed '95,$ d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed '1,95 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files/2_home_bidar_dev_libsh_src_d_msg_in_sh
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source_end
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
+ wc -l < $tmp_dir/self/include/files/$include )))
+ wc -l < $tmp_dir/self/include/files/$include )
+ wc -l < $tmp_dir/self/include/files/$include 
+++ wc -l
++ include_stack=239
++ IFS='
+	'
++ for include in '$tmp_dir/self/include/files/*'
++ include_no=3
+ var self/include/lines/$include_no )))
+ var self/include/lines/$include_no )
+ var self/include/lines/$include_no 
+++ var self/include/lines/3
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/3 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/3 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/3
++ include_line=270
++ case $include in
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo 3_home_bidar_dev_libsh_src_farray_in_sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ include=3_home_bidar_dev_libsh_src_farray_in_sh
++ sed '270,$ d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed '1,270 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files/3_home_bidar_dev_libsh_src_farray_in_sh
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source_end
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
+ wc -l < $tmp_dir/self/include/files/$include )))
+ wc -l < $tmp_dir/self/include/files/$include )
+ wc -l < $tmp_dir/self/include/files/$include 
+++ wc -l
++ include_stack=305
++ IFS='
+	'
++ for include in '$tmp_dir/self/include/files/*'
++ include_no=4
+ var self/include/lines/$include_no )))
+ var self/include/lines/$include_no )
+ var self/include/lines/$include_no 
+++ var self/include/lines/4
+++ case $1 in
+++ '[' -d /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/4 ']'
+++ '[' -e /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/4 ']'
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/lines/4
++ include_line=337
++ case $include in
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g')
+ echo ${include##*/} | sed -e 's|\/|_|g' -e 's|\.|_|g'
+++ echo 4_home_bidar_dev_libsh_src_test_input_in_sh
+++ sed -e 's|\/|_|g' -e 's|\.|_|g'
++ include=4_home_bidar_dev_libsh_src_test_input_in_sh
++ sed '337,$ d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed '1,337 d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/files/4_home_bidar_dev_libsh_src_test_input_in_sh
++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source_end
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/include/cut_source /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
+ wc -l < $tmp_dir/self/include/files/$include )))
+ wc -l < $tmp_dir/self/include/files/$include )
+ wc -l < $tmp_dir/self/include/files/$include 
+++ wc -l
++ include_stack=318
++ IFS='
+	'
++ clear_flags /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ sed -ie '/^#\\\\*/d' /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2
++ cp /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/self/pc_file.stage2 libsh
++ '[' '!' 1 = 1 ']'
++ cleanup
++ '[' '!' ']'
+ cat $tmp_dir/$IID/clean_files)
+ cat $tmp_dir/$IID/clean_files
+++ cat /tmp/tmp.8LLRrbxsgqshppXXXXXXXX/1/clean_files
++ rm -rf /tmp/tmp.8LLRrbxsgqshppXXXXXXXX
++ shift
++ '[' '!' 0 = 0 ']'
+exit $?
++ exit 0
