@@ -11,35 +11,35 @@ detectDE()
     if [ -n "${XDG_CURRENT_DESKTOP}" ]; then
       case "${XDG_CURRENT_DESKTOP}" in
          ENLIGHTENMENT)
-           DE=enlightenment;
+           echo enlightenment;
            ;;
          GNOME)
-           DE=gnome;
+           echo gnome;
            ;;
          KDE)
-           DE=kde;
+           echo kde;
            ;;
          LXDE)
-           DE=lxde;
+           echo lxde;
            ;;
          MATE)
-           DE=mate;
+           echo mate;
            ;;
          XFCE)
-           DE=xfce
+           echo xfce
            ;;
       esac
     fi
 
     if [ x"$DE" = x"" ]; then
       # classic fallbacks
-      if [ x"$KDE_FULL_SESSION" != x"" ]; then DE=kde;
-      elif [ x"$GNOME_DESKTOP_SESSION_ID" != x"" ]; then DE=gnome;
-      elif [ x"$MATE_DESKTOP_SESSION_ID" != x"" ]; then DE=mate;
-      elif `dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1` ; then DE=gnome;
-      elif xprop -root _DT_SAVE_MODE 2> /dev/null | grep ' = \"xfce4\"$' >/dev/null 2>&1; then DE=xfce;
-      elif xprop -root 2> /dev/null | grep -i '^xfce_desktop_window' >/dev/null 2>&1; then DE=xfce
-      elif echo $DESKTOP | grep -q '^Enlightenment'; then DE=enlightenment;
+      if [ x"$KDE_FULL_SESSION" != x"" ]; then echo kde;
+      elif [ x"$GNOME_DESKTOP_SESSION_ID" != x"" ]; then echo gnome;
+      elif [ x"$MATE_DESKTOP_SESSION_ID" != x"" ]; then echo mate;
+      elif $(dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1) ; then echo gnome;
+      elif xprop -root _DT_SAVE_MODE 2> /dev/null | grep ' = \"xfce4\"$' >/dev/null 2>&1; then echo xfce;
+      elif xprop -root 2> /dev/null | grep -i '^xfce_desktop_window' >/dev/null 2>&1; then echo xfce
+      elif echo $DESKTOP | grep -q '^Enlightenment'; then echo enlightenment;
       fi
     fi
 
@@ -47,16 +47,16 @@ detectDE()
       # fallback to checking $DESKTOP_SESSION
       case "$DESKTOP_SESSION" in
          gnome)
-           DE=gnome;
+           echo gnome;
            ;;
          LXDE|Lubuntu)
-           DE=lxde; 
+           echo lxde; 
            ;;
          MATE)
-           DE=mate;
+           echo mate;
            ;;
          xfce|xfce4|'Xfce Session')
-           DE=xfce;
+           echo xfce;
            ;;
       esac
     fi
@@ -65,7 +65,7 @@ detectDE()
       # fallback to uname output for other platforms
       case "$(uname 2>/dev/null)" in 
         Darwin)
-          DE=darwin;
+          echo darwin;
           ;;
       esac
     fi
@@ -73,7 +73,7 @@ detectDE()
     if [ x"$DE" = x"gnome" ]; then
       # gnome-default-applications-properties is only available in GNOME 2.x
       # but not in GNOME 3.x
-      which gnome-default-applications-properties > /dev/null 2>&1  || DE="gnome3"
+      which gnome-default-applications-properties > /dev/null 2>&1  || echo "gnome3"
     fi
 }
 
