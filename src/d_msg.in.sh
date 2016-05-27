@@ -175,16 +175,16 @@ d_msg() # display msgs and get input
 			    --entry --text="$3"
 			    dmsg_return_status=$? 
 			    ;;
-			l) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2  -${DMSG_APPNAME:=$appname}" \
+			l) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
 			    --column='' --text="$3"\
                         --list 
 			    dmsg_return_status=$? 
 			    ;;
-			f) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2  -${DMSG_APPNAME:=$appname}" \
+			f) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
 			    --question --text="$3" 
 			    dmsg_return_status=$? 
 			    ;;
-			*) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$1  -${DMSG_APPNAME:=$appname}" \
+			*) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$1 - ${DMSG_APPNAME:=$appname}" \
 			    --info --text="$2" 
 			    dmsg_return_status=$? ;;
 		    esac
