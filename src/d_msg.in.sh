@@ -11,35 +11,35 @@ detectDE()
     if [ -n "${XDG_CURRENT_DESKTOP}" ]; then
       case "${XDG_CURRENT_DESKTOP}" in
          ENLIGHTENMENT)
-           echo enlightenment;
+           __DE=enlightenment;
            ;;
          GNOME)
-           echo gnome;
+           __DE=gnome;
            ;;
          KDE)
-           echo kde;
+           __DE=kde;
            ;;
          LXDE)
-           echo lxde;
+           __DE=lxde;
            ;;
          MATE)
-           echo mate;
+           __DE=mate;
            ;;
          XFCE)
-           echo xfce
+           __DE=xfce
            ;;
       esac
     fi
 
-    if [ x"$DE" = x"" ]; then
+    if [ x"$__DE" = x"" ]; then
       # classic fallbacks
-      if [ x"$KDE_FULL_SESSION" != x"" ]; then echo kde;
-      elif [ x"$GNOME_DESKTOP_SESSION_ID" != x"" ]; then echo gnome;
-      elif [ x"$MATE_DESKTOP_SESSION_ID" != x"" ]; then echo mate;
-      elif $(dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1) ; then echo gnome;
-      elif xprop -root _DT_SAVE_MODE 2> /dev/null | grep ' = \"xfce4\"$' >/dev/null 2>&1; then echo xfce;
-      elif xprop -root 2> /dev/null | grep -i '^xfce_desktop_window' >/dev/null 2>&1; then echo xfce
-      elif echo $DESKTOP | grep -q '^Enlightenment'; then echo enlightenment;
+      if [ x"$KDE_FULL_SESSION" != x"" ]; then __DE=kde;
+      elif [ x"$GNOME_DESKTOP_SESSION_ID" != x"" ]; then __DE=gnome;
+      elif [ x"$MATE_DESKTOP_SESSION_ID" != x"" ]; then __DE=mate;
+      elif $(dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1) ; then __DE=gnome;
+      elif xprop -root _DT_SAVE_MODE 2> /dev/null | grep ' = \"xfce4\"$' >/dev/null 2>&1; then __DE=xfce;
+      elif xprop -root 2> /dev/null | grep -i '^xfce_desktop_window' >/dev/null 2>&1; then __DE=xfce
+      elif echo $DESKTOP | grep -q '^Enlightenment'; then __DE=enlightenment;
       fi
     fi
 
@@ -47,16 +47,16 @@ detectDE()
       # fallback to checking $DESKTOP_SESSION
       case "$DESKTOP_SESSION" in
          gnome)
-           echo gnome;
+           __DE=gnome;
            ;;
          LXDE|Lubuntu)
-           echo lxde; 
+           __DE=lxde; 
            ;;
          MATE)
-           echo mate;
+           __DE=mate;
            ;;
          xfce|xfce4|'Xfce Session')
-           echo xfce;
+           __DE=xfce;
            ;;
       esac
     fi
@@ -65,7 +65,7 @@ detectDE()
       # fallback to uname output for other platforms
       case "$(uname 2>/dev/null)" in 
         Darwin)
-          echo darwin;
+          __DE=darwin;
           ;;
       esac
     fi
@@ -73,8 +73,11 @@ detectDE()
     if [ x"$DE" = x"gnome" ]; then
       # gnome-default-applications-properties is only available in GNOME 2.x
       # but not in GNOME 3.x
-      which gnome-default-applications-properties > /dev/null 2>&1  || echo "gnome3"
+        which gnome-default-applications-properties > /dev/null 2>&1  || __DE="gnome3"
     fi
+
+    echo $__DE
+    unset __DE
 }
 
 d_msg() # display msgs and get input 
@@ -119,7 +122,7 @@ d_msg() # display msgs and get input
 	    fi
 	    case $DMSG_DE in
 		kde) DMSG_GUI_APP=kdialog ;; 
-		gnome|xfce) DMSG_GUI_APP=zenity ;;
+		gnome|xfce|mate|lxde) DMSG_GUI_APP=zenity ;;
 #\\ifndef DMSG_wDETECT_GENERIC_XMESSAGE
 #\\!DMSG_WDETECT_GENERIC_KDIALOG generic) DMSG_GUI_APP=kdialog ;;
 #\\!DMSG_WDETECT_GENERIC_ZENITY generic) DMSG_GUI_APP=zenity ;;
@@ -133,6 +136,7 @@ d_msg() # display msgs and get input
 		for dmsg_gdialog_app in kdialog zenity xmessage ; do
 		    if  which $dmsg_gdialog_app > /dev/null; then
 			DMSG_GUI_APP=$dmsg_gdialog_app
+                        break
 		    else
 			dmsg_gdialog_app=false
 		    fi
