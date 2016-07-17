@@ -90,8 +90,9 @@ d_msg() # display msgs and get input
 #  ! msg is an error/faile message								#	
 #  i msg is an msg/input ( work's not properly in cgi and with xmessage : terminal)		#
 #  f msg is an yes/no msg/test									#	       
-#  l msg is an list of items ( nyi in cgi: terminal)						#
-#    no modifer msg is an normal msg								#
+#  l msg is an list of items ( nyi in cgi: terminal)                                            #
+#  m normal message                                                                             #
+#    no modifer is m modifer								        #
 #################################################################################################
 #												#
 # vars:											        #
@@ -145,98 +146,107 @@ d_msg() # display msgs and get input
 		    DMSG_GUI=0 
 		    d_msg ! 'Warning' "No gui dialog tool found"
 		fi
-	    fi 
+	    fi
+
+            command=$1
+            title=$2
+            case $command in
+                !|i|l|f|m) shift ;;
+                *) command=m ;;
+            esac
+            shift
+            
 	    case $DMSG_GUI_APP in 
 		kdialog)
-		    case $1 in 
-			!)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" --title "$2" --error "$3" 
+		    case $command in 
+			!)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" --title "$title" --error "$@" 
 			    dmsg_return_status=${DMSG_ERR_STAUS:=1}  
 			    ;;
-			i) kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" -title "$2" --inputbox "$3" 
+			i) kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" --title "$title" --inputbox "$@" 
 			    dmsg_return_status=$?
 			;;
 			l)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}"
-			    --title "$2" --menu \
-			    "$3" "$4" "$5" "$6" "$7" "$8" "$9" 4
-			    shift ; dmsg_return_status=$? ;;
-			f)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}"  --title "$2" --yesno "$3" 
+			    --title "$title" --menu \
+			    "$@"
 			    dmsg_return_status=$? ;;
-			*)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" -title "$1" --msgbox "$2" 
+			f)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}"  --title "$title" --yesno "$@" 
+			    dmsg_return_status=$? ;;
+			m|*)  kdialog --icon ${DMSG_ICON:=xorg} --caption "${DMSG_APPNAME:=$appname}" --title "$title" --msgbox "$@" 
 			    dmsg_return_status=$? ;;
 		    esac
 		    ;;
 		zenity) 
-		    case $1 in 
-			!) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
-			    --error --text="$3"
+		    case $command in 
+			!) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$title - ${DMSG_APPNAME:=$appname}" \
+			    --error --text="$@"
 			    dmsg_return_status=${DMSG_ERR_STAUS:=1}   
 			    ;;
-			i) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
-			    --entry --text="$3"
+			i) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$title - ${DMSG_APPNAME:=$appname}" \
+			    --entry --text="$@"
 			    dmsg_return_status=$? 
 			    ;;
-			l) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
-			    --column='' --text="$3"\
+			l) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$title- ${DMSG_APPNAME:=$appname}" \
+			    --column='' --text="$@"\
                         --list 
 			    dmsg_return_status=$? 
 			    ;;
-			f) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$2 - ${DMSG_APPNAME:=$appname}" \
-			    --question --text="$3" 
+			f) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$title - ${DMSG_APPNAME:=$appname}" \
+			    --question --text="$@" 
 			    dmsg_return_status=$? 
 			    ;;
-			*) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$1 - ${DMSG_APPNAME:=$appname}" \
-			    --info --text="$2" 
+			m|*) zenity --window-icon=${DMSG_ICON:=xorg}  --title="$title - ${DMSG_APPNAME:=$appname}" \
+			    --info --text="$@" 
 			    dmsg_return_status=$? ;;
 		    esac
 		    ;;
 		xmessage)
-		    case $1 in
-			!) xmessage -center -title "$2 - ${DMSG_APPNAME:=$appname}" "err: "$3"" ;
+		    case $command in
+			!) xmessage -center -title "$title - ${DMSG_APPNAME:=$appname}" "err: "$@"" ;
 			    dmsg_return_status=${DMSG_ERR_STAUS:=1} 
 			    ;;
-			f) xmessage -center -title "$2  -${DMSG_APPNAME:=$appname}" -buttons no:1,yes:0 "$3" 
+			f) xmessage -center -title "$title  -${DMSG_APPNAME:=$appname}" -buttons no:1,yes:0 "$@" 
 			    dmsg_return_status=$? 
 			    ;;	
 			i) 
 			    if [ -z $DMSG_XBUTTONS ] ; then
 				DMSG_XBUTTONS='not:1,set:2'
 			    fi
-			    xmessage -center -title "$appname - "$2"" -print -buttons $DMSG_XBUTTONS "$3"
+			    xmessage -center -title "$appname - "$title"" -print -buttons $DMSG_XBUTTONS "$@"
 			    dmsg_return_status=$?
 			    ;;
-			l) xmessage -center -title "$2 - ${DMSG_APPNAME:=$appname}" -print \
-			    -buttons "$3","$4","$5","$6","$7","$8","$9" ; dmsg_return_status=$? ;;
-			*) xmessage -center -title "$1 - ${DMSG_APPNAME:=$appname}" "$2" ; dmsg_return_status=$? ;;
+			l) xmessage -center -title "$title - ${DMSG_APPNAME:=$appname}" -print \
+			    -buttons "$@" ; dmsg_return_status=$? ;;
+			m|*) xmessage -center -title "$title - ${DMSG_APPNAME:=$appname}" "$@" ; dmsg_return_status=$? ;;
 		    esac
 		    ;;
 	    esac
 	else
 	    case ${DMSG_APP:-native} in
 		dialog)
-		    case "$1" in 
-			!) dialog --title "$2 -${DMSG_APPNAME:=$appname}" --infobox "error:$3" 0 0 ; dmsg_return_status=${DMSG_ERR_STAUS:=1};;
+		    case $command in 
+			!) dialog --title "$title -${DMSG_APPNAME:=$appname}" --infobox "error: $@" 0 0 ; dmsg_return_status=${DMSG_ERR_STAUS:=1};;
 			#!) cgi_dialog ! "$3" ; dmsg_return_status=${DMG_ERR_STAUS:=1}  ;;
-			f) dialog --title "$2 - ${DMSG_APPNAME:=$appname}" --yesno "$3"   0 0 
+			f) dialog --title "$title - ${DMSG_APPNAME:=$appname}" --yesno "$@"   0 0 
 			    dmsg_return_status=$?
 			    ;;
-			i) dialog --title "$2 - ${DMSG_APPNAME:=$appname}" --inputbox "$3" 0 0
+			i) dialog --title "$title - ${DMSG_APPNAME:=$appname}" --inputbox "$@" 0 0
 			    dmsg_return_status=$?		 
 			    ;;
-			*) dialog --title "$1 -${DMSG_APPNAME:=$appname}" --infobox "$2" 0 0  ;;
+			m|*) dialog --title "$tile -${DMSG_APPNAME:=$appname}" --infobox "$@" 0 0  ;;
 			#*) cgi_dialog "$2" ; dmsg_return_status=$? ;;
 		    esac
 		    ;;
 		native)
-		    case "$1" in
-			!) echo  "$3" >&2; dmsg_return_status=${DMSG_ERR_STAUS:=1} ;;
-			f)  echo ""$3" y|n"
+		    case $command in
+			!) echo  "$@" >&2; dmsg_return_status=${DMSG_ERR_STAUS:=1} ;;
+			f)  echo ""$@" y|n"
 			    read a 
 			    if [ ! $a = y ] ; then
 				dmsg_return_status=1;
 			    fi
 			    ;;
 			i) 
-			    echo "$3" >&2
+			    echo "$@" >&2
 			    read  a 
 			    if [ -z "$a" ] ; then
 				dmsg_return_status=1;
@@ -244,7 +254,7 @@ d_msg() # display msgs and get input
 				echo $a
 			    fi
 			    ;;
-			*)  echo "$2"   ; dmsg_return_status=$? ;;
+			*|m)  echo "$@"   ; dmsg_return_status=$? ;;
 		    esac
 		    ;;
 	    esac
