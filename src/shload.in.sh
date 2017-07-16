@@ -18,7 +18,7 @@ shload()
       *)
 	    LIBSH_shload_old_ifs=$IFS
 	    IFS=:
-	    for __lib_dir in ${IMPORT_LIBRARY_PATH} ${SH_LIBRARY_PATH}; do
+	    for __lib_dir in ${SH_LIBRARY_PATH} ${IMPORT_LIBRARY_PATH} }; do
 		IFS=$LIBSH_shload_old_ifs
 		if [ -f $__lib_dir/$1 ] ; then 
 		    . ${__lib_dir}/$1
