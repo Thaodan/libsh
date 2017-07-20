@@ -53,7 +53,7 @@ import()
 	    if shload $1 ;then
 		LIBSH_IMPORTED=$LIBSH_IMPORTED:$1
 	    else
-		echo "error loading $1"
+		echo "error loading $1" >&2
 		return 2
 	    fi
 	fi
